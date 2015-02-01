@@ -1,14 +1,52 @@
-# Site settings
-title: Garima Singh
-email: igarimasingh@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: ssgarima
-github_username:  singhgarima
-
 # Build settings
-markdown: kramdown
+markdown: redcarpet
+highlighter: pygments
+
+# Site settings
+title: "Garima Singh"
+description: My Thoughts and Know-hows
+
+email: igarimasingh@gmail.com
+#blog logo
+logo: "/assets/images/logo.jpg"
+# blog cover
+cover: "/assets/images/cA4aKEIPQrerBnp1yGHv_IMG_9534-3-2.jpg"
+
+name: 'Garima Singh'
+author: 'Garima Singh'
+author_image: "/assets/images/author1.jpg"
+
+paginate:	5
+
+url: "" # the base hostname & protocol for your site
+baseurl: ""
+
+# social icons and sharing options
+social:
+  - icon:	twitter
+    url:	https://twitter.com/ssgarima
+    desc: Follow me on twitter
+    share_url: http://twitter.com/share
+    share_title: ?text=
+    share_link: "&amp;url="
+
+#  - icon:	facebook
+#    url:	https://facebook.com/???
+#    desc: Connect with me facebook
+#    share_url: //www.facebook.com/sharer.php
+#    share_title: ?t=
+#    share_link: "&amp;u="
+
+  - icon:	github
+    url:	https://github.com/singhgarima
+    desc:	Fork me on github
+    share_url:
+    share_title:
+    share_link:
+
+#  - icon:	google-plus
+#    url:	https://google.com/???
+#    desc:	Add me on google+
+#    share_url:
+#    share_title:
+#    share_link:
