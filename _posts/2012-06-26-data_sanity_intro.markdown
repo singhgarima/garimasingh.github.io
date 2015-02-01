@@ -7,8 +7,6 @@ tags:
 - ruby
 - rubygem
 ---
-# data_sanity - check your data's sanity
-
 *Background:* We are trying to rebuild an old application, earlier written as PL/SQL stored procedures, and now an RoR web application. The application having some highly sensitive data which has to be migrated to be used with the new one. Now the old system was pretty basic and usually errors where analysed manually in data and modified straight to DB whereas the new system being highly customized, and has handled all errors on addition of new records by throwing validation messages. Now the data migrated if doesn't holds all the validation this system imposes can lead to unknown errors.
 
 *Solution:* A script or background process to go through all the data and point out such issues. This is a common situation when an application changes tech stack, goes through an update, etc. And so we thought of a reusable solution, data_sanity.
