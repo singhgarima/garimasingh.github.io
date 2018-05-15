@@ -1,3 +1,6 @@
 source 'https://rubygems.org'
-gem 'github-pages'
-gem 'jekyll'
+gem 'github-pages', '~> 185'
+gem 'jekyll', '~> 3.7'
+gem 'jekyll-paginate'
+gem 'pygments.rb', '~> 0.6.3'
+gem 'redcarpet', '~> 3.4'

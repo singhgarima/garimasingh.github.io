@@ -2,6 +2,8 @@
 markdown: redcarpet
 highlighter: pygments
 
+plugins: [jekyll-paginate]
+
 # Site settings
 title: "Garima Singh"
 description: My Thoughts and Know-hows
