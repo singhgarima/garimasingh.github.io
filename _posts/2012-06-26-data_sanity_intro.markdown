@@ -20,11 +20,10 @@ tags:
 
 * *Data scan* - You can scan through all the data or conditionally via data set. eg. Suppose you have a model Vehicle, which has a column type, which can have three values (FourWheeler, ThreeWheeler, TwoWheeler). In all there are 40,000 records in the table. And I want to test only 100 records of each type. I can specify the scanner to scan through 100 records of each type. (shown below)
 
-	```
-	Criteria in data_sanity_criteria.yml:
-		
-	Vehicle:
-	  Type: ['FourWheeler', 'ThreeWheeler, 'TwoWheeler']
-	```
+Criteria in data_sanity_criteria.yml:
+```yaml	
+Vehicle:
+  Type: ['FourWheeler', 'ThreeWheeler, 'TwoWheeler']
+```
 
-	Rake Task: `rake data_sanity:investigate[csv,random,100]`
+Rake Task: `rake data_sanity:investigate[csv,random,100]`

@@ -1,6 +1,9 @@
 # Build settings
-markdown: redcarpet
-highlighter: pygments
+# Conversion
+markdown:    kramdown
+highlighter: rouge
+lsi:         false
+incremental: false
 
 plugins: [jekyll-paginate]
 
@@ -20,7 +23,7 @@ author_image: "/assets/images/author1.jpg"
 
 paginate:	5
 
-url: "" # the base hostname & protocol for your site
+url: "http://singhgarima.github.io" # the base hostname & protocol for your site
 baseurl: ""
 
 # social icons and sharing options
@@ -52,3 +55,11 @@ social:
       share_url:
       share_title:
       share_link:
+
+# Handling Reading
+safe:                false
+exclude:             ["Gemfile", "Gemfile.lock", "vendor/bundle/", "vendor/cache/", "vendor/gems/", "vendor/ruby/"]
+keep_files:          [".git"]
+encoding:            "utf-8"
+markdown_ext:        "markdown,mkdown,mkdn,mkd,md"
+strict_front_matter: true
